@@ -134,3 +134,29 @@ Here’s the **Use Case Diagram** for the hotel booking system. It lists the act
 The diagram represents the interactions between:
 - **Customer**: Searches for rooms, makes bookings, and processes payments.
 - **Admin**: Manages room availability, processes bookings, and oversees payment processing.
+
+## Acceptance Criteria
+
+Acceptance Criteria define the specific conditions that a software product must meet to be accepted by the client or end-user. They act as a checklist that ensures all requirements for a feature are fulfilled from both the developer’s and the user’s perspective.
+
+These criteria:
+- Provide clarity on what “done” means for a feature.
+- Reduce ambiguity between stakeholders and developers.
+- Help guide testing and validation efforts.
+- Ensure alignment with user expectations.
+
+Well-defined acceptance criteria improve communication, reduce rework, and create a shared understanding of what success looks like for each feature.
+
+### Example: Checkout Feature in a Booking Management System
+
+**Feature:** Checkout
+
+**Acceptance Criteria:**
+- ✅ The user must be able to view a summary of selected rooms, dates, and total price.
+- ✅ The user must be able to enter and validate payment details.
+- ✅ The system must confirm availability before processing the payment.
+- ✅ Upon successful payment, the user should receive a booking confirmation with a unique reference number.
+- ✅ If payment fails, the user should be shown an error message and prompted to retry.
+- ✅ Booking details must be saved in the system and retrievable by the admin.
+
+These criteria help ensure the checkout process functions as expected and is user-friendly, secure, and aligned with business goals.
