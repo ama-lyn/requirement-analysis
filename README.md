@@ -88,3 +88,27 @@ Requirement analysis is a structured process that involves several key activitie
      - Verifying that the requirements are complete, consistent, and traceable.
      - Performing testing or simulations to validate key requirements.
    - **Purpose**: To ensure the requirements are aligned with the stakeholders' expectations and the project is ready to move into the design and development phases.
+
+## Types of Requirements
+
+### 1. **Functional Requirements**
+
+Functional requirements define what the system should do — the specific features and functionalities that must be implemented. They describe the tasks that the software must perform in order to fulfill user needs.
+
+**Examples of Functional Requirements for a Booking Management System:**
+   - **User Authentication**: Users must be able to sign up, log in, and manage their profiles.
+   - **Booking Creation**: Users must be able to search for available rooms based on location, dates, and preferences, and make a reservation.
+   - **Payment Processing**: The system must support secure payment options like credit/debit cards and online wallets to process booking payments.
+   - **Room Availability Management**: The system must allow hotel staff to update room availability and pricing in real time.
+   - **Booking Confirmation**: Once a booking is made, users must receive a confirmation email with booking details, including the booking ID, dates, and payment confirmation.
+
+### 2. **Non-functional Requirements**
+
+Non-functional requirements describe how the system performs its tasks and set the quality attributes that the system should have. These requirements are concerned with system performance, scalability, security, and other aspects that affect user experience but are not directly related to specific features.
+
+**Examples of Non-functional Requirements for a Booking Management System:**
+   - **Performance**: The system should be able to handle at least 1,000 concurrent users without significant performance degradation.
+   - **Scalability**: The system must be able to scale horizontally to accommodate growing user demand, especially during peak booking seasons.
+   - **Security**: The system should implement encryption for all sensitive user data, including payment details and personal information, to ensure data protection.
+   - **Availability**: The system should be available 99.9% of the time, with minimal downtime for maintenance.
+   - **Usability**: The booking platform should be user-friendly, with an intuitive interface that allows users to book rooms with no more than 3 steps.
