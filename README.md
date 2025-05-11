@@ -112,3 +112,25 @@ Non-functional requirements describe how the system performs its tasks and set t
    - **Security**: The system should implement encryption for all sensitive user data, including payment details and personal information, to ensure data protection.
    - **Availability**: The system should be available 99.9% of the time, with minimal downtime for maintenance.
    - **Usability**: The booking platform should be user-friendly, with an intuitive interface that allows users to book rooms with no more than 3 steps.
+
+## Use Case Diagrams
+
+Use Case Diagrams are a visual representation of the functional requirements of a system, showing the interactions between **actors** (users or external systems) and the system itself. They are part of the Unified Modeling Language (UML) and help to capture the **functional behavior** of the system in a simple and understandable way.
+
+Use Case Diagrams illustrate the **goals** of the actors (such as users or external systems) and how they interact with the system to achieve those goals. These diagrams focus on **what** the system will do rather than **how** it will do it.
+
+### Benefits of Use Case Diagrams:
+- **Clarifies Functional Requirements**: Helps to clearly define the interactions between users and the system.
+- **Facilitates Communication**: Provides a simple visual representation that all stakeholders can understand, making communication easier between developers, clients, and other team members.
+- **Defines System Boundaries**: Clearly shows the scope of the system and its interactions with external actors.
+- **Guides Development**: Serves as a reference point for developers to understand the main use cases that need to be implemented.
+
+### Use Case Diagram for the Booking System
+
+Here’s the **Use Case Diagram** for the hotel booking system. It lists the actors involved (e.g., Customer, Admin) and the key use cases (e.g., Search Rooms, Make a Booking, Process Payment).
+
+![Use Case Diagram](./alx-booking-uc.png)
+
+The diagram represents the interactions between:
+- **Customer**: Searches for rooms, makes bookings, and processes payments.
+- **Admin**: Manages room availability, processes bookings, and oversees payment processing.
