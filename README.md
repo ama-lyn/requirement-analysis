@@ -44,3 +44,47 @@ Through proper requirement analysis, all stakeholders — including developers, 
 A well-conducted requirement analysis phase establishes a **solid foundation** for the design and development of the software. It provides developers with the information they need to make decisions about system architecture, database design, user interface, and integration with other systems. Without a clear understanding of requirements, it’s difficult to design an appropriate solution.
 
 > When the requirement analysis phase clearly outlines the expected performance benchmarks (e.g., the system should process 10,000 transactions per second), developers can design the architecture accordingly to meet these demands.
+
+## Key Activities in Requirement Analysis
+
+Requirement analysis is a structured process that involves several key activities to ensure a comprehensive understanding of the system requirements. Here are the five essential activities involved:
+
+1. **Requirement Gathering**
+   This is the initial phase where the primary goal is to collect all possible requirements from stakeholders, including clients, end-users, and business analysts.
+   - **Activities**:
+     - Conducting interviews with stakeholders.
+     - Reviewing existing documentation and systems.
+     - Observing user behavior and processes.
+   - **Purpose**: To ensure that all necessary information is collected for further analysis.
+
+2. **Requirement Elicitation**
+   Elicitation involves engaging with stakeholders to gather their specific needs, expectations, and challenges. It’s a more interactive process compared to gathering.
+   - **Activities**:
+     - Organizing workshops and brainstorming sessions.
+     - Running surveys or focus groups.
+     - Prototyping and discussing potential features.
+   - **Purpose**: To draw out detailed and often unspoken requirements that stakeholders may not initially articulate.
+
+3. **Requirement Documentation**
+   Once the requirements are gathered and elicited, they are documented in a clear, structured format for reference and communication.
+   - **Activities**:
+     - Writing use cases, user stories, or functional specifications.
+     - Creating diagrams or flowcharts to visualize workflows and processes.
+     - Ensuring that requirements are unambiguous and traceable.
+   - **Purpose**: To ensure that all requirements are clearly articulated and available for review by all team members and stakeholders.
+
+4. **Requirement Analysis and Modeling**
+   In this phase, the documented requirements are analyzed, prioritized, and modeled to identify relationships, constraints, and potential issues.
+   - **Activities**:
+     - Analyzing the feasibility and impact of each requirement.
+     - Identifying dependencies between different requirements.
+     - Creating models like data flow diagrams (DFDs) or entity-relationship diagrams (ERDs).
+   - **Purpose**: To refine requirements, ensuring that they are realistic and aligned with project goals while identifying potential gaps or risks.
+
+5. **Requirement Validation**
+   This activity ensures that the documented requirements meet the needs of the stakeholders and are feasible to implement within the project’s constraints.
+   - **Activities**:
+     - Conducting reviews and walkthroughs with stakeholders to confirm accuracy.
+     - Verifying that the requirements are complete, consistent, and traceable.
+     - Performing testing or simulations to validate key requirements.
+   - **Purpose**: To ensure the requirements are aligned with the stakeholders' expectations and the project is ready to move into the design and development phases.
